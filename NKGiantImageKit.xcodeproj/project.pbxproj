@@ -16,6 +16,8 @@
 		CA47B12123430BA000B5729C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA47B12023430BA000B5729C /* Assets.xcassets */; };
 		CA47B12423430BA000B5729C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA47B12223430BA000B5729C /* LaunchScreen.storyboard */; };
 		CA47B12723430BA000B5729C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA47B12623430BA000B5729C /* main.m */; };
+		CA47B14223478E9400B5729C /* NKGiantImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA47B14023478E9400B5729C /* NKGiantImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA47B14323478E9400B5729C /* NKGiantImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA47B14123478E9400B5729C /* NKGiantImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CA47B12323430BA000B5729C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA47B12523430BA000B5729C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA47B12623430BA000B5729C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA47B14023478E9400B5729C /* NKGiantImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKGiantImageView.h; sourceTree = "<group>"; };
+		CA47B14123478E9400B5729C /* NKGiantImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKGiantImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		CA47B1012342453A00B5729C /* NKGiantImageKit */ = {
 			isa = PBXGroup;
 			children = (
+				CA47B13F23478E6D00B5729C /* ImageView */,
 				CA47B10A2342465400B5729C /* Downsize */,
 				CA47B1022342453A00B5729C /* NKGiantImageKit.h */,
 				CA47B1032342453A00B5729C /* Info.plist */,
@@ -107,6 +112,15 @@
 			path = GiantImageDemo;
 			sourceTree = "<group>";
 		};
+		CA47B13F23478E6D00B5729C /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA47B14023478E9400B5729C /* NKGiantImageView.h */,
+				CA47B14123478E9400B5729C /* NKGiantImageView.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -115,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA47B10D234246A300B5729C /* NKGiantImageDownsizeAdapter.h in Headers */,
+				CA47B14223478E9400B5729C /* NKGiantImageView.h in Headers */,
 				CA47B1042342453A00B5729C /* NKGiantImageKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA47B10E234246A300B5729C /* NKGiantImageDownsizeAdapter.m in Sources */,
+				CA47B14323478E9400B5729C /* NKGiantImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

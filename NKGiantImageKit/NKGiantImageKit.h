@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char NKGiantImageKitVersionString[];
 
 #import <NKGiantImageKit/NKGiantImageDownsizeAdapter.h>
 
+#import <NKGiantImageKit/NKGiantImageView.h>

@@ -10,7 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, NKGiantImageContentMode) {
+    NKGiantImageContentModeLow,
+    NKGiantImageContentModeDefault,
+    NKGiantImageContentModeHigh,
+};
+
 @interface NKGiantImageView : UIView
+
+- (instancetype)initWithImage:(nullable UIImage *)image;
+
+@property (nonatomic) NKGiantImageContentMode giantContentMode;
+
+@property (nonatomic, nullable) UIImage *image;
 
 @end
 
